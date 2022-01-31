@@ -1,0 +1,36 @@
+.home{
+    display: flex;
+    justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+.subtotal2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.home__row{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+}
+@media (max-width: 768px) {
+    .home__row{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.home__welcome{
+    justify-content: center;
+    text-align: center;
+   color: white;
+   margin-top: 50px;
+}

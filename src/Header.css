@@ -1,0 +1,25 @@
+.header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    color: white ;
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+}
+.button__top{
+    font-weight: 500;
+   border: none;
+    color: white;
+    background-color: black;
+    margin-left: 15px;
+}
