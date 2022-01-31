@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Header.css";
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
 import { Link } from "react-router-dom";
 function Header() {
-  const [{basket, user}, dispatch] = useStateValue();
+  const [{basket, user}] = useStateValue();
   const handleAuth = () =>{
     if(user){
       auth.signOut();
